@@ -36,28 +36,28 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-   2 + 2 
+   return x + y 
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código: 
-  18 - 12 
+ return x - y 
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código: 
-  3 * 3 
+ return x * y
 
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  10 / 5 
+ return x / y 
 }
 
 function sonIguales(x, y) {
@@ -89,12 +89,18 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num > 50) {
+    return true;
+  } else {
+    return false;
+  }
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  return x % y;
   
 }
 
@@ -102,14 +108,22 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if( num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num % 2 === 1) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function elevarAlCuadrado(num) {
